@@ -124,6 +124,8 @@ style this element.
 
       <span id="template-placeholder"></span>
 
+      <slot name="suffix" slot="suffix"></slot>
+
       <template is="dom-if" if="[[errorMessage]]">
         <paper-input-error slot="add-on" id="error">
           [[errorMessage]]
